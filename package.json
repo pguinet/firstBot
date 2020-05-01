@@ -3,8 +3,11 @@
   "version": "1.2.0",
   "description": "My first bot for Discord",
   "main": "index.js",
+  "directories": {
+	  "test": "test"
+  }
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test"
   },
   "author": "",
   "license": "ISC",
