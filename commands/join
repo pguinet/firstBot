@@ -1,0 +1,8 @@
+exports.run = (client, message, args) => {
+var city = "ezanville"
+var role = message.guild.role.find(role => role.name === city);
+message.member.addRole(role);
+var city = "domont"
+var role = message.guid.role.find(role => role.name === city);
+message.member.addRole(role);
+}
