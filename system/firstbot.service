@@ -3,14 +3,14 @@ Description=My very first bot for Discord
 # fichier à copier dans /etc/systemd/system/
 
 [Service]
-ExecStart=/opt/FirstBot/index.js
+ExecStart=/opt/firstBot/index.js
 Restart=always
 User=nobody
 # Note RHEL/Fedora uses 'nobody', Debian/Ubuntu uses 'nogroup'
 Group=nogroup  
 Environment=PATH=/usr/bin:/usr/local/bin
 Environment=NODE_ENV=production
-WorkingDirectory=/opt/FirstBot
+WorkingDirectory=/opt/firstBot
 
 [Install]
 WantedBy=multi-user.target
