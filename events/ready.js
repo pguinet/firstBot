@@ -3,7 +3,7 @@ module.exports = async client => {
 //  try {
     console.log(`${client.user.tag}, ready to serve ${client.users.size} users in ${client.guilds.size} servers.`, "ready");
     // Make the bot "play the game" which is the help command with default prefix.
-    client.user.setActivity(`Confiné au datacenter`, {type: "PLAYING"});
+    client.user.setActivity(`déConfiné au datacenter`, {type: "PLAYING"});
 //  } catch (err) {
 //    next(err);
 //  }
