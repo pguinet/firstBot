@@ -7,7 +7,7 @@ ExecStart=/opt/firstBot/index.js
 Restart=always
 User=nobody
 # Note RHEL/Fedora uses 'nobody', Debian/Ubuntu uses 'nogroup'
-Group=nogroup  
+Group=nobody  
 Environment=PATH=/usr/bin:/usr/local/bin
 Environment=NODE_ENV=production
 WorkingDirectory=/opt/firstBot
