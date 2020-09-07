@@ -9,7 +9,12 @@ Use config.json.sample to create config.json. You'll have to put your Discord to
 
 To install :
 - install node : yum install nodejs
-- clone project
+- install npm : yum install npm
+- install git : yum install git
+- clone project : git clone https://github.com/pguinet/firstBot.git
 - copy system/firstbot.service to /etc/systemd/system
-- download requesite modules : npm -i
+- download requesite modules : npm i
+- Set index.js executable : chmod +x index.js
+
+Start service : systemctl enable --now firstbot
 
