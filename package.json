@@ -3,6 +3,10 @@
   "version": "1.2.0",
   "description": "My first bot for Discord",
   "main": "index.js",
+  "repository": {
+	  "type": "git",
+	  "url": "git://github.com/pguinet/firstBot.git"
+  }
   "directories": {
     "test": "test"
   },
@@ -12,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.6.3",
-    "enmap": "^5.2.4"
+    "discord.js": "^11.6.4",
+    "enmap": "^5.7.1"
   }
 }
